@@ -1,0 +1,13 @@
+l=[0,3,4,0,6,0,4]
+k=0
+c=0
+for i in range(len(l)):
+    if(l[i]!=0):
+        l[k]=l[i]
+        k=k+1
+    else:
+        c+=1
+for i in range(c):
+    l[k]=0
+    k=k+1
+print(l)
